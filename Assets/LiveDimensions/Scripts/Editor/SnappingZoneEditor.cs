@@ -76,7 +76,7 @@ namespace LiveDimensions.SnappingZone
 
             if (snappingZone.customSnapLocation)
             {
-                snappingZone.customSnapPosition = snappingZone.transform.position + new Vector3(0, 0.5f, 0);
+                snappingZone.customSnapPosition = new Vector3(0, 0.5f, 0);
                 snappingZone.customSnapRotation = snappingZone.transform.rotation;
             }
 

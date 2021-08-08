@@ -23,5 +23,5 @@ MonoBehaviour:
   includeInlineCode: 1
   listenForVRCExceptions: 1
   shouldForceCompile: 0
-  watcherMode: 0
+  watcherMode: 1
   logWatcherMatchStrings: []
