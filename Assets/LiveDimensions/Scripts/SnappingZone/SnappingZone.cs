@@ -20,20 +20,57 @@ namespace LiveDimensions.SnappingZone
         [HideInInspector]
         public bool lastCustomSnapLocation;
 
-        public void OnTriggerEnter(Collider other)
-        {
-            if (other == null) return;
-            if (!Utilities.IsValid(other)) return;
+        VRC_Pickup currentPickup;
 
+        private void OnTriggerEnter(Collider other)
+        {
             VRC_Pickup pickup = (VRC_Pickup)other.GetComponent(typeof(VRC_Pickup));
-            if (pickup && Networking.LocalPlayer.IsOwner(pickup.gameObject))
+
+            if (pickup)
             {
-                pickup.Drop();
-                if (customSnapLocation)
-                    pickup.transform.SetPositionAndRotation(transform.TransformPoint(customSnapPosition), customSnapRotation);
-                else
-                    pickup.transform.SetPositionAndRotation(transform.position, transform.rotation);
+                if (!currentPickup)
+                {
+                    currentPickup = pickup;
+                    StartSnap();
+                }
             }
+        }
+
+        private void OnTriggerExit(Collider other)
+        {
+            VRC_Pickup pickup = (VRC_Pickup)other.GetComponent(typeof(VRC_Pickup));
+
+            if (pickup)
+            {
+                if (pickup.Equals(currentPickup))
+                {
+                    EndSnap();
+                }
+            }
+        }
+
+        void StartSnap()
+        {
+            currentPickup.Drop();
+
+            currentPickup.transform.SetPositionAndRotation(GetSnapPosition(), GetSnapRotation());
+
+            currentPickup.GetComponent<Rigidbody>().velocity = new Vector3(0, 0, 0);
+        }
+
+        void EndSnap()
+        {
+            currentPickup = null;
+        }
+
+        Vector3 GetSnapPosition()
+        {
+            return customSnapLocation ? transform.TransformPoint(customSnapPosition) : transform.position;
+        }
+
+        Quaternion GetSnapRotation()
+        {
+            return customSnapLocation ? customSnapRotation : transform.rotation;
         }
     }
 }
