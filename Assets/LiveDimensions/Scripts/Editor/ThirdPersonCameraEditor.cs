@@ -73,9 +73,6 @@ namespace LiveDimensions.ThirdPersonCamera
             GUILayout.Label("by LiveDimensions", subtitleStyle);
 
             GUILayout.Space(6);
-
-            GUIStyle boxStyle = new GUIStyle();
-            boxStyle.normal.textColor = EditorGUIUtility.isProSkin ? Color.white : Color.black;
             GUILayout.Box("This prefab should work out of the box, you can configure the keys used for changing between camera views.");
         }
     }
