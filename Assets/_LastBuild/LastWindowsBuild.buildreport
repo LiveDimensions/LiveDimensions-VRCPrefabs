@@ -1,0 +1,487 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1126 &-7810039017155700141
+PackedAssets:
+  m_File: 1
+  m_ShortPath: BuildPlayer-CameraSystem.sharedAssets
+  m_Overhead: 78087
+  m_Contents:
+  - fileID: 1
+    classID: 150
+    packedSize: 49
+    offset: 81016
+    sourceAssetGUID: 00000000000000000000000000000000
+    buildTimeAssetPath: 
+  - fileID: 2
+    classID: 142
+    packedSize: 176
+    offset: 81072
+    sourceAssetGUID: 00000000000000000000000000000000
+    buildTimeAssetPath: 
+  - fileID: 3
+    classID: 21
+    packedSize: 1736
+    offset: 81248
+    sourceAssetGUID: 4c82e701cbfd9ed4eb1fcb3a68bd3bd6
+    buildTimeAssetPath: Assets/LiveDimensions/Fonts/ARIAL SDF.asset
+  - fileID: 4
+    classID: 21
+    packedSize: 1052
+    offset: 82984
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 5
+    classID: 21
+    packedSize: 252
+    offset: 84040
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 6
+    classID: 28
+    packedSize: 262256
+    offset: 84296
+    sourceAssetGUID: 4c82e701cbfd9ed4eb1fcb3a68bd3bd6
+    buildTimeAssetPath: Assets/LiveDimensions/Fonts/ARIAL SDF.asset
+  - fileID: 7
+    classID: 28
+    packedSize: 5564
+    offset: 346552
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 8
+    classID: 28
+    packedSize: 5568
+    offset: 352120
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 9
+    classID: 28
+    packedSize: 5576
+    offset: 357688
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 10
+    classID: 48
+    packedSize: 122144
+    offset: 363264
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 11
+    classID: 48
+    packedSize: 10488
+    offset: 485408
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 12
+    classID: 48
+    packedSize: 19964
+    offset: 495896
+    sourceAssetGUID: 68e6db2ebdc24f95958faec2be5558d6
+    buildTimeAssetPath: Assets/TextMesh Pro/Shaders/TMP_SDF.shader
+  - fileID: 13
+    classID: 48
+    packedSize: 15088
+    offset: 515864
+    sourceAssetGUID: fe393ace9b354375a9cb14cdbbc28be4
+    buildTimeAssetPath: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader
+  - fileID: 14
+    classID: 84
+    packedSize: 88
+    offset: 530952
+    sourceAssetGUID: 08dd6e516cd3f2c49a66a55d9cef6454
+    buildTimeAssetPath: Assets/LiveDimensions/CameraSystem/CameraSystem.renderTexture
+  - fileID: 15
+    classID: 115
+    packedSize: 100
+    offset: 78032
+    sourceAssetGUID: 661092b4961be7145bfbe56e1e62337b
+    buildTimeAssetPath: Assets/VRCSDK/Plugins/VRCSDK3.dll
+  - fileID: 16
+    classID: 115
+    packedSize: 92
+    offset: 78136
+    sourceAssetGUID: 661092b4961be7145bfbe56e1e62337b
+    buildTimeAssetPath: Assets/VRCSDK/Plugins/VRCSDK3.dll
+  - fileID: 17
+    classID: 115
+    packedSize: 96
+    offset: 78232
+    sourceAssetGUID: 4ecd63eff847044b68db9453ce219299
+    buildTimeAssetPath: Assets/VRCSDK/Plugins/VRCCore-Editor.dll
+  - fileID: 18
+    classID: 115
+    packedSize: 108
+    offset: 78328
+    sourceAssetGUID: 661092b4961be7145bfbe56e1e62337b
+    buildTimeAssetPath: Assets/VRCSDK/Plugins/VRCSDK3.dll
+  - fileID: 19
+    classID: 115
+    packedSize: 96
+    offset: 78440
+    sourceAssetGUID: 0cd44c1031e13a943bb63640046fad76
+    buildTimeAssetPath: Packages/com.unity.ugui/Runtime/UI/Core/Layout/CanvasScaler.cs
+  - fileID: 20
+    classID: 115
+    packedSize: 88
+    offset: 78536
+    sourceAssetGUID: 1344c3c82d62a2a41a3576d8abb8e3ea
+    buildTimeAssetPath: Packages/com.unity.ugui/Runtime/UI/Core/RawImage.cs
+  - fileID: 21
+    classID: 115
+    packedSize: 96
+    offset: 78624
+    sourceAssetGUID: 1aa08ab6e0800fa44ae55d278d1423e3
+    buildTimeAssetPath: Packages/com.unity.ugui/Runtime/UI/Core/ScrollRect.cs
+  - fileID: 22
+    classID: 115
+    packedSize: 96
+    offset: 78720
+    sourceAssetGUID: 2a4db7a114972834c8e4117be1d82ba3
+    buildTimeAssetPath: Packages/com.unity.ugui/Runtime/UI/Core/Scrollbar.cs
+  - fileID: 23
+    classID: 115
+    packedSize: 120
+    offset: 78816
+    sourceAssetGUID: 30649d3a9faa99c48a7b1166b86bf2a0
+    buildTimeAssetPath: Packages/com.unity.ugui/Runtime/UI/Core/Layout/HorizontalLayoutGroup.cs
+  - fileID: 24
+    classID: 115
+    packedSize: 104
+    offset: 78936
+    sourceAssetGUID: 306cc8c2b49d7114eaa3623786fc2126
+    buildTimeAssetPath: Packages/com.unity.ugui/Runtime/UI/Core/Layout/LayoutElement.cs
+  - fileID: 25
+    classID: 115
+    packedSize: 80
+    offset: 79040
+    sourceAssetGUID: 31a19414c41e5ae4aae2af33fee712f6
+    buildTimeAssetPath: Packages/com.unity.ugui/Runtime/UI/Core/Mask.cs
+  - fileID: 26
+    classID: 115
+    packedSize: 112
+    offset: 79120
+    sourceAssetGUID: 3245ec927659c4140ac4f8d17403cc18
+    buildTimeAssetPath: Packages/com.unity.ugui/Runtime/UI/Core/Layout/ContentSizeFitter.cs
+  - fileID: 27
+    classID: 115
+    packedSize: 88
+    offset: 79232
+    sourceAssetGUID: 45115577ef41a5b4ca741ed302693907
+    buildTimeAssetPath: Assets/Udon/UdonBehaviour.cs
+  - fileID: 28
+    classID: 115
+    packedSize: 112
+    offset: 79320
+    sourceAssetGUID: 45e653bab7fb20e499bda25e1b646fea
+    buildTimeAssetPath: Packages/com.unity.cinemachine/Runtime/Behaviours/CinemachineVirtualCamera.cs
+  - fileID: 29
+    classID: 115
+    packedSize: 88
+    offset: 79432
+    sourceAssetGUID: 4e29b1a8efbd4b44bb3f3716e73f07ff
+    buildTimeAssetPath: Packages/com.unity.ugui/Runtime/UI/Core/Button.cs
+  - fileID: 30
+    classID: 115
+    packedSize: 128
+    offset: 79520
+    sourceAssetGUID: 4f231c4fb786f3946a6b90b886c48677
+    buildTimeAssetPath: Packages/com.unity.ugui/Runtime/EventSystem/InputModules/StandaloneInputModule.cs
+  - fileID: 31
+    classID: 115
+    packedSize: 112
+    offset: 79648
+    sourceAssetGUID: 59f8146938fff824cb5fd77236b75775
+    buildTimeAssetPath: Packages/com.unity.ugui/Runtime/UI/Core/Layout/VerticalLayoutGroup.cs
+  - fileID: 32
+    classID: 115
+    packedSize: 100
+    offset: 79760
+    sourceAssetGUID: 71c1514a6bd24e1e882cebbe1904ce04
+    buildTimeAssetPath: Packages/com.unity.textmeshpro/Scripts/Runtime/TMP_FontAsset.cs
+  - fileID: 33
+    classID: 115
+    packedSize: 96
+    offset: 79864
+    sourceAssetGUID: 72ece51f2901e7445ab60da3685d6b5f
+    buildTimeAssetPath: Packages/com.unity.cinemachine/Runtime/Behaviours/CinemachineBrain.cs
+  - fileID: 34
+    classID: 115
+    packedSize: 104
+    offset: 79960
+    sourceAssetGUID: 76c392e42b5098c458856cdf6ecaaaa1
+    buildTimeAssetPath: Packages/com.unity.ugui/Runtime/EventSystem/EventSystem.cs
+  - fileID: 35
+    classID: 115
+    packedSize: 112
+    offset: 80064
+    sourceAssetGUID: 86710e43de46f6f4bac7c8e50813a599
+    buildTimeAssetPath: Packages/com.unity.ugui/Runtime/UI/Core/Layout/AspectRatioFitter.cs
+  - fileID: 36
+    classID: 115
+    packedSize: 104
+    offset: 80176
+    sourceAssetGUID: ac0b09e7857660247b1477e93731de29
+    buildTimeAssetPath: Packages/com.unity.cinemachine/Runtime/Behaviours/CinemachinePipeline.cs
+  - fileID: 37
+    classID: 115
+    packedSize: 128
+    offset: 80280
+    sourceAssetGUID: bf61d954ecb803046953c666facfb904
+    buildTimeAssetPath: Assets/Udon/ProgramSources/SerializedUdonProgramAsset.cs
+  - fileID: 38
+    classID: 115
+    packedSize: 104
+    offset: 80408
+    sourceAssetGUID: dc42784cf147c0c48a680349fa168899
+    buildTimeAssetPath: Packages/com.unity.ugui/Runtime/UI/Core/GraphicRaycaster.cs
+  - fileID: 39
+    classID: 115
+    packedSize: 104
+    offset: 80512
+    sourceAssetGUID: f4044717213e31446939f7bd49c896ea
+    buildTimeAssetPath: Packages/com.unity.cinemachine/Runtime/Components/CinemachineComposer.cs
+  - fileID: 40
+    classID: 115
+    packedSize: 100
+    offset: 80616
+    sourceAssetGUID: f4688fdb7df04437aeb418b961361dc5
+    buildTimeAssetPath: Packages/com.unity.textmeshpro/Scripts/Runtime/TextMeshProUGUI.cs
+  - fileID: 41
+    classID: 115
+    packedSize: 112
+    offset: 80720
+    sourceAssetGUID: fa7155796051b734daa718462081dc5f
+    buildTimeAssetPath: Packages/com.unity.cinemachine/Runtime/Components/CinemachineTransposer.cs
+  - fileID: 42
+    classID: 115
+    packedSize: 88
+    offset: 80832
+    sourceAssetGUID: fe87c0e1cc204ed48ad3b37840f39efc
+    buildTimeAssetPath: Packages/com.unity.ugui/Runtime/UI/Core/Image.cs
+  - fileID: 43
+    classID: 115
+    packedSize: 92
+    offset: 80920
+    sourceAssetGUID: 661092b4961be7145bfbe56e1e62337b
+    buildTimeAssetPath: Assets/VRCSDK/Plugins/VRCSDK3.dll
+  - fileID: 44
+    classID: 213
+    packedSize: 568
+    offset: 531040
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 45
+    classID: 213
+    packedSize: 572
+    offset: 531608
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 46
+    classID: 213
+    packedSize: 580
+    offset: 532184
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 47
+    classID: 114
+    packedSize: 9680
+    offset: 532768
+    sourceAssetGUID: 4c82e701cbfd9ed4eb1fcb3a68bd3bd6
+    buildTimeAssetPath: Assets/LiveDimensions/Fonts/ARIAL SDF.asset
+  - fileID: 48
+    classID: 114
+    packedSize: 126608
+    offset: 542448
+    sourceAssetGUID: e0f57dfbc38af6342bcd8acfe8c0c7e1
+    buildTimeAssetPath: Assets/SerializedUdonPrograms/86b24d3f1771527449223248cea31884.asset
+  - fileID: 49
+    classID: 114
+    packedSize: 17068
+    offset: 669056
+    sourceAssetGUID: dc356dbb1eeed36468a3122b0592b71f
+    buildTimeAssetPath: Assets/SerializedUdonPrograms/c8df303ceb45ae84f85a11591f741734.asset
+--- !u!1125 &1
+BuildReport:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: LastWindowsBuild
+  m_Summary:
+    buildStartTime:
+      serializedVersion: 2
+      ticks: 637682962730566530
+    buildGUID: 00000000000000000000000000000000
+    platformName: Win64
+    platformGroupName: Standalone
+    options: 16
+    assetBundleOptions: 32
+    outputPath: C:/Users/Live/AppData/Local/Temp/DefaultCompany/VRC-Snap-Zone/scene-standalonewindows64-camerasystem.vrcw
+    crc: 2001957183
+    totalSize: 217973
+    totalTimeTicks: 90894492
+    totalErrors: 0
+    totalWarnings: 0
+    buildType: 1
+    buildResult: 1
+  m_Files:
+  - path: D:/Unity 2019/VRC Projects/LiveDimensions-VRCPrefabs/scene-standalonewindows64-camerasystem.vrcw/BuildPlayer-CameraSystem
+    role: Scene
+    id: 0
+    totalSize: 258268
+  - path: D:/Unity 2019/VRC Projects/LiveDimensions-VRCPrefabs/scene-standalonewindows64-camerasystem.vrcw/BuildPlayer-CameraSystem.sharedAssets
+    role: SharedAssets
+    id: 1
+    totalSize: 686124
+  - path: D:/Unity 2019/VRC Projects/LiveDimensions-VRCPrefabs/scene-standalonewindows64-camerasystem.vrcw
+    role: AssetBundle
+    id: 2
+    totalSize: 212893
+  - path: D:/Unity 2019/VRC Projects/LiveDimensions-VRCPrefabs/scene-standalonewindows64-camerasystem.vrcw.manifest
+    role: AssetBundleTextManifest
+    id: 3
+    totalSize: 3852
+  - path: D:/Unity 2019/VRC Projects/LiveDimensions-VRCPrefabs/VRC-Snap-Zone/CAB-252c28a57bd3c3f2536a18b932ea0137
+    role: ResourcesFile
+    id: 4
+    totalSize: 4312
+  - path: D:/Unity 2019/VRC Projects/LiveDimensions-VRCPrefabs/VRC-Snap-Zone
+    role: ManifestAssetBundle
+    id: 5
+    totalSize: 1057
+  - path: D:/Unity 2019/VRC Projects/LiveDimensions-VRCPrefabs/VRC-Snap-Zone.manifest
+    role: AssetBundleTextManifest
+    id: 6
+    totalSize: 171
+  m_BuildSteps:
+  - stepName: Build Asset Bundles
+    durationTicks: 90894492
+    depth: 0
+    messages: []
+  - stepName: Calculate asset bundles to be built
+    durationTicks: 52061
+    depth: 1
+    messages: []
+  - stepName: Compile scripts
+    durationTicks: 23096909
+    depth: 1
+    messages: []
+  - stepName: Build player
+    durationTicks: 22103148
+    depth: 1
+    messages: []
+  - stepName: Prepare assets for target platform
+    durationTicks: 1351810
+    depth: 2
+    messages: []
+  - stepName: Building scenes
+    durationTicks: 4864662
+    depth: 2
+    messages: []
+  - stepName: Building scene Assets/LiveDimensions/Scenes/CameraSystem.unity
+    durationTicks: 4848428
+    depth: 3
+    messages: []
+  - stepName: Writing asset files
+    durationTicks: 897745
+    depth: 2
+    messages: []
+  - stepName: Packaging assets - archive:/BuildPlayer-CameraSystem/BuildPlayer-CameraSystem.sharedAssets
+    durationTicks: 856711
+    depth: 3
+    messages: []
+  - stepName: Creating compressed player package
+    durationTicks: 1960323
+    depth: 2
+    messages: []
+  - stepName: Postprocess built player
+    durationTicks: 81492
+    depth: 2
+    messages: []
+  m_Appendices:
+  - {fileID: 7118068281716924787}
+  - {fileID: -7810039017155700141}
+  - {fileID: 3907216845365881716}
+  - {fileID: 1749385701744106437}
+  - {fileID: 6774737380752085791}
+--- !u!641289076 &1749385701744106437
+AudioBuildInfo:
+  m_IsAudioDisabled: 0
+  m_AudioClipCount: 0
+  m_AudioMixerCount: 0
+--- !u!382020655 &3907216845365881716
+PluginBuildInfo:
+  m_RuntimePlugins:
+  - OVRPlugin
+  - VRC.Udon.ClientBindings
+  - openvr_api
+  - portmidi
+  - VRC.Udon.VRCWrapperModules
+  - VRCSDK3
+  - VRC.Udon.VM
+  - nunit.framework
+  - librsync.net
+  - VRC.Udon.Common
+  - Collections.Pooled
+  - System.Collections.Immutable
+  - System.Numerics.Vectors
+  - System.Buffers
+  - VRC.Udon.Wrapper
+  - VRC.Udon.Security
+  - clipper_library
+  - VRCSDKBase
+  - System.Runtime.CompilerServices.Unsafe
+  - libopenvr_api
+  - Blake2Sharp
+  - System.Memory
+  - VRCCore-Editor
+  - AudioPluginOculusSpatializer
+  m_EditorPlugins:
+  - VRCSDK3-Editor
+  - Microsoft.CodeAnalysis
+  - VRC.Udon.VRCTypeResolverModules
+  - AppleEventIntegration
+  - liblz4Plastic
+  - Unity.Plastic.Newtonsoft.Json
+  - unityplastic
+  - VRC.Udon.Compiler
+  - System.Reflection.Metadata
+  - Microsoft.CodeAnalysis.CSharp
+  - VRC.Udon.UAssembly
+  - VRC.Udon.Graph
+  - UnityEditor.VR
+  - 0Harmony
+  - VRCSDKBase-Editor
+  - VRC.Udon.VRCGraphModules
+  - log4netPlastic
+  - VRC.Udon.EditorBindings
+  - zlib64Plastic
+  - Unity.Plastic.Antlr3.Runtime
+  - lz4x64Plastic
+--- !u!1126 &6774737380752085791
+PackedAssets:
+  m_File: 4
+  m_ShortPath: CAB-252c28a57bd3c3f2536a18b932ea0137
+  m_Overhead: 4096
+  m_Contents:
+  - fileID: 1
+    classID: 142
+    packedSize: 104
+    offset: 4096
+    sourceAssetGUID: 00000000000000000000000000000000
+    buildTimeAssetPath: AssetBundle Object
+  - fileID: 2
+    classID: 290
+    packedSize: 112
+    offset: 4200
+    sourceAssetGUID: 00000000000000000000000000000000
+    buildTimeAssetPath: 'Built-in AssetBundleManifest: AssetBundleManifest'
+--- !u!668709126 &7118068281716924787
+BuiltAssetBundleInfoSet:
+  bundleInfos:
+  - bundleName: scene-standalonewindows64-camerasystem.vrcw
+    bundleArchiveFile: 2
+    packagedFileIndices: 0000000001000000
+  - bundleName: VRC-Snap-Zone
+    bundleArchiveFile: 5
+    packagedFileIndices: 04000000

@@ -27,59 +27,62 @@ using UnityEditor;
 using UnityEditor.Animations;
 using UnityEngine;
 
-public static class FixAnimatorControllers
+namespace VRC.SDKBase.Editor
 {
-    private static readonly HashSet<Type> types = new HashSet<Type>
+    public static class FixAnimatorControllers
     {
-        typeof(AnimatorState),
-        typeof(AnimatorStateMachine),
-        typeof(StateMachineBehaviour),
-        typeof(AnimatorStateTransition),
-        typeof(AnimatorTransition),
-        typeof(BlendTree)
-    };
-
-    [InitializeOnLoadMethod]
-    private static void RegisterDelegates()
-    {
-        Selection.selectionChanged += AutoFixHideFlags;
-        EditorApplication.quitting += UnregisterDelegates;
-    }
-
-    public static void UnregisterDelegates()
-    {
-        Selection.selectionChanged -= AutoFixHideFlags;
-        EditorApplication.quitting -= UnregisterDelegates;
-    }
-
-    // Automatically corrects HideFlags for objects with types included in 'types' when trying to inspect them.
-    public static void AutoFixHideFlags()
-    {
-        bool dirty = false;
-        foreach(UnityEngine.Object selection in Selection.objects)
+        private static readonly HashSet<Type> types = new HashSet<Type>
         {
-            if(selection == null)
-            {
-                continue;
-            }
+            typeof(AnimatorState),
+            typeof(AnimatorStateMachine),
+            typeof(StateMachineBehaviour),
+            typeof(AnimatorStateTransition),
+            typeof(AnimatorTransition),
+            typeof(BlendTree)
+        };
 
-            if(selection.hideFlags != (HideFlags.HideInHierarchy | HideFlags.HideInInspector) || !types.Contains(selection.GetType()))
-            {
-                continue;
-            }
-
-            if(!string.IsNullOrEmpty(AssetDatabase.GetAssetPath(selection)))
-            {
-                EditorUtility.SetDirty(selection);
-            }
-
-            selection.hideFlags = HideFlags.HideInHierarchy;
-            dirty = true;
+        [InitializeOnLoadMethod]
+        private static void RegisterDelegates()
+        {
+            Selection.selectionChanged += AutoFixHideFlags;
+            EditorApplication.quitting += UnregisterDelegates;
         }
 
-        if(dirty)
+        public static void UnregisterDelegates()
         {
-            Selection.selectionChanged();
+            Selection.selectionChanged -= AutoFixHideFlags;
+            EditorApplication.quitting -= UnregisterDelegates;
+        }
+
+        // Automatically corrects HideFlags for objects with types included in 'types' when trying to inspect them.
+        public static void AutoFixHideFlags()
+        {
+            bool dirty = false;
+            foreach(UnityEngine.Object selection in Selection.objects)
+            {
+                if(selection == null)
+                {
+                    continue;
+                }
+
+                if(selection.hideFlags != (HideFlags.HideInHierarchy | HideFlags.HideInInspector) || !types.Contains(selection.GetType()))
+                {
+                    continue;
+                }
+
+                if(!string.IsNullOrEmpty(AssetDatabase.GetAssetPath(selection)))
+                {
+                    EditorUtility.SetDirty(selection);
+                }
+
+                selection.hideFlags = HideFlags.HideInHierarchy;
+                dirty = true;
+            }
+
+            if(dirty)
+            {
+                Selection.selectionChanged();
+            }
         }
     }
 }
